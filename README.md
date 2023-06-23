@@ -23,7 +23,7 @@ This code can work for ``any temporal``, and you can have ``many stations as you
     - The coordinates of each station should be arranged as follows:
         - The Data you loaded and the coordinate you loaded must have the same station name
             - Otherwise, the first cell is considered as the first station name.
-        - The first column of must be station name
+        - The first column must be station name
         - The second and third columns must be X and Y coordinate respectivly.
 - Examples of data and cordinate arrangment:
   Station_Name|X-cordinate|Y-cordinate
