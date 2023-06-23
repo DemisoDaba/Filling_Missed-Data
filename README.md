@@ -13,7 +13,7 @@
 
 **Important notes**:
 
-This code can work for ``any temporal``, and you can have ``how much station you have``.
+This code can work for ``any temporal``, and you can have ``many stations as you want.``
 - Your data (**txt & csv only**) must be arranged vertically (column wise)
     - All the first row of your data is considered as the name of the station **default**
     - Any Missed and non-filled cells below the first row is considered as *missed value*.
