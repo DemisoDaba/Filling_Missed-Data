@@ -17,7 +17,7 @@
     - Any Missed and non-filled cells below the first row is considered as *missed value*.
     - After filled, the script aouthomatically create the folder named as "*filled*",
     - And save the result in the *same destination of loaded file*.
--In IDW-Method:
+- **In IDW-Method:**
     - The coordinates of each station should be arranged as follows:
         - The Data you loaded and the coordinate you loaded must have the same station name
             - Otherwise, the first cell is considered as the first station name.
