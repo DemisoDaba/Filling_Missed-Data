@@ -23,3 +23,21 @@
             - Otherwise, the first cell is considered as the first station name.
         - The first column of must be station name
         - The second and third columns must be X and Y coordinate respectivly.
+- Examples of data and cordinate arrangment:
+  Station_Name|X-cordinate|Y-cordinate
+  :---:|---:|---
+  Station-A|38.123|7.523
+  Station-B|37.235|8.838
+  Station-C|36.425|6.987
+  Station-D|38.257|7.854
+
+  Station-A|Station-B|Station-C|Station-D
+  :---|:---:|---:|---
+  0.53|0.35|3.25|0.87
+  0.62||0.25|0.36
+  0.80|0.98|0.35|0.28
+  5.50||4.25|0.68
+  0.25|0.35|0.87|0.35
+  
+
+  
