@@ -41,5 +41,4 @@ This code can work for ``any temporal``, and you can have ``many stations as you
   5.50||4.25|0.68
   0.25|0.35|0.87|0.35
   
-
-  
+##### © 2023 **Demiso Daba - All rights reserved**
