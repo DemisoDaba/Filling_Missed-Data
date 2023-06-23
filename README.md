@@ -12,6 +12,8 @@
 1|[Arithmetic_IDW](./Arithmetic-IDW-Method.py)| This is A python script that creates a graphical user interface (GUI) for filling missing values in a Rainfall dataset using the Arithmetic Mean and IDW method.
 
 **Important notes**:
+
+This code can work for ``any temporal``, and you can have ``how much station you have``.
 - Your data (**txt & csv only**) must be arranged vertically (column wise)
     - All the first row of your data is considered as the name of the station **default**
     - Any Missed and non-filled cells below the first row is considered as *missed value*.
