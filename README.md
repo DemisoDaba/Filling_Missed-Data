@@ -2,9 +2,13 @@
 
 # Filling_Missed_RF-Data
 
+## Two methods
+1. **Arithmetic Mean method**
+2. **Inverse Distance.W-Method**
 
-- [This is](./Arithmetic_Mean.py) A python script that creates a graphical user interface (GUI) for filling missing values in a Rainfall dataset using the Arithmetic Mean method.
-- [This is](./Arithmetic_Mean.py) A python script that creates a graphical user interface (GUI) for filling missing values in a Rainfall dataset using the Arithmetic Mean method.
+
+- [This --> Arithmetic_Mean.py](./Arithmetic_Mean.py) is A python script that creates a graphical user interface (GUI) for filling missing values in a Rainfall dataset using the Arithmetic Mean method.
+- [This is](./Arithmetic_IDW-Method.py) A python script that creates a graphical user interface (GUI) for filling missing values in a Rainfall dataset using the Arithmetic Mean method.
 
 **Important notes**:
 - Your data (**txt & csv only**) must be arranged vertically (column wise)
