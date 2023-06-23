@@ -9,7 +9,7 @@
 #|File_Names|Descriptions
 ---|:---:|---
 *|[Arithmetic_Mean](./Arithmetic_Mean.py)| This is A python script that creates a graphical user interface (GUI) for filling missing values in a Rainfall dataset using the Arithmetic Mean method.
-1|[Arithmetic_IDW](./Arithmetic-IDW-Method.py)| This is A python script that creates a graphical user interface (GUI) for filling missing values in a Rainfall dataset using the Arithmetic Mean and IDW method.
+1|[Arithmetic_IDW](./Arithmetic_IDW-Method.py)| This is A python script that creates a graphical user interface (GUI) for filling missing values in a Rainfall dataset using the Arithmetic Mean and IDW method.
 
 **Important notes**:
 
