@@ -47,6 +47,6 @@ This code can work for ``any temporal``, and you can have ``many stations as you
    - Clone this repository to your local machine.
    
     ```
-    https://github.com/DemisoDaba/Filling_Missed_RF-Data.git
+   git clone https://github.com/DemisoDaba/Filling_Missed_RF-Data.git
     ```
 ##### © 2023 **Demiso Daba - All rights reserved**
