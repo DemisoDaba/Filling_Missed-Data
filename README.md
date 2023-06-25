@@ -40,5 +40,13 @@ This code can work for ``any temporal``, and you can have ``many stations as you
   0.80|0.98|0.35|0.28
   5.50||4.25|0.68
   0.25|0.35|0.87|0.35
-  
+
+  **Getting Started**
+
+  To get started with the course, you'll need to:
+   - Clone this repository to your local machine.
+   
+    ```
+    https://github.com/DemisoDaba/Filling_Missed_RF-Data.git
+    ```
 ##### © 2023 **Demiso Daba - All rights reserved**
