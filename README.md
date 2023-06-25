@@ -43,7 +43,7 @@ This code can work for ``any temporal``, and you can have ``many stations as you
 
   **Getting Started**
 
-  To get started with the course, you'll need to:
+  To use the code, you'll need to:
    - Clone this repository to your local machine.
    
     ```
