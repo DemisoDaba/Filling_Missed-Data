@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jun 23 08:13:45 2023
+Created on Thu Jun 22 22:31:18 2023
 @author: Demiso
 """
-
 import os
 import tkinter as tk
 from tkinter import filedialog, font
@@ -43,13 +42,16 @@ def fill_missing_data_inverse_distance(data, coordinates):
 
     num_stations = data.shape[1]  # Get the number of stations
     num_days = data.shape[0]  # Get the number of days
-
+    
+    coordinates = coordinates.astype(float)
+    
     # Iterate over each station
     for station in range(num_stations):
         # Iterate over each day
         for day in range(num_days):
             if np.isnan(data[day, station]):
                 # Find neighboring stations that have valid data
+                station_coord = coordinates[station]
                 neighboring_stations = []
                 for neighbor in range(num_stations):
                     if neighbor != station and not np.isnan(data[day, neighbor]):
@@ -60,9 +62,10 @@ def fill_missing_data_inverse_distance(data, coordinates):
                     weighted_sum = 0.0
                     total_weight = 0.0
                     for neighbor in neighboring_stations:
-                        distance = abs(station - neighbor)
-                        weight = 1.0 / distance
-                        weighted_sum += data[day, neighbor] * weight
+                        neighbor_coord = coordinates[neighbor]
+                        distance = np.linalg.norm(station_coord-neighbor_coord) 
+                        weight = 1/(distance**2)
+                        weighted_sum += weight * data[day, neighbor]
                         total_weight += weight
 
                     filled_data[day, station] = weighted_sum / total_weight
@@ -101,7 +104,7 @@ def handle_button_click(method):
 
 def load_coordinates():
     global coordinates, coordinates_file_path
-    coordinates_file_path = filedialog.askopenfilename(filetypes=[("Text files", "*.txt"), ("CSV files", "*.csv")])
+    coordinates_file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv"),("Text files", "*.txt")])
     if coordinates_file_path:
         try:
             coordinates_data = np.genfromtxt(coordinates_file_path, delimiter=",", skip_header=1, dtype=str)
@@ -128,7 +131,7 @@ def load_coordinates():
             print("Error loading coordinates:", str(e))
 def load_data():
     global file_path, column_names, coordinates
-    file_path = filedialog.askopenfilename(filetypes=[("Text files", "*.txt"), ("CSV files", "*.csv")])
+    file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv"),("Text files", "*.txt")])
     if file_path:
         try:
             with open(file_path, 'r') as file:
@@ -171,5 +174,4 @@ label_data_location.pack()
 
 label_coordinates_location = tk.Label(window, text="Coordinates Location: ")
 label_coordinates_location.pack()
-
 window.mainloop()
