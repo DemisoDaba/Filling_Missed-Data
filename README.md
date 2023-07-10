@@ -8,8 +8,8 @@
 
 #|File_Names|Descriptions
 ---|:---:|---
-*|[Rainfalln](./For_Rainfall)| This is a folder for that contains rainfall related codes.
-1|[Arithmetic_IDW](./For_StreamFlow)| This is a folder for that contains stream flow related codes.
+*|[Rainfall](./For_Rainfall)| This is a folder for that contains rainfall related codes.
+1|[StreamFlow](./For_StreamFlow)| This is a folder for that contains stream flow related codes.
 
   **Getting Started**
 
