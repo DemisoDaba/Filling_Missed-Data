@@ -4,7 +4,7 @@
 
 #|File_Names|Descriptions
 ---|:---:|---
-*|[Stream Flow](./Fill_Stream_Flow.py)| This is A python script that creates a graphical user interface (GUI) for filling missing values in a steramflow dataset using regression method.
+*|[Stream_Flow](./Fill_Stream_Flow.py)| This is A python script that creates a graphical user interface (GUI) for filling missing values in a steramflow dataset using regression method.
 
 **Important notes**:
 
