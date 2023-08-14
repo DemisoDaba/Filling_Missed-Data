@@ -1,3 +1,3 @@
-**The data must be .csv**
+*The data must be .csv*
 
-**The year may have the format of "Year", "Month", "Date"**
+*The year may have the format of "Year", "Month", "Date"*
