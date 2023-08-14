@@ -1,1 +1,2 @@
-This is just vertical look up
+**The data must be .csv**
+**The year may have the format of "Year", "Month", "Date"**
