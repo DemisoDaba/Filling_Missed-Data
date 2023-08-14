@@ -8,8 +8,9 @@
 
 #|File_Names|Descriptions
 ---|:---:|---
-*|[Rainfall](./For_Rainfall)| This is a folder for that contains rainfall related codes.
-1|[StreamFlow](./For_StreamFlow)| This is a folder for that contains stream flow related codes.
+*|[Rainfall](./For_Rainfall)| This is a folder that contains rainfall related codes.
+1|[StreamFlow](./For_StreamFlow)| This is a folder that contains stream flow related codes.
+2|[Vertical_Lookup](./V-Look_up)| This is the folder that contains vertical looking codes.
 
   **Getting Started**
 
