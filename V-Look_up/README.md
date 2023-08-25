@@ -9,3 +9,5 @@
   
 - Editing can only done once at --> Read the data from the CSV file
 - The year may have the format of "Year", "Month", "Date"
+
+### The format of Data you have.
