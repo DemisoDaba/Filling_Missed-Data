@@ -1,4 +1,6 @@
-### Instruction and Usage
+### Instruction and Usage.
+- To use [this code](./V_LookUp.py)
+
 - The data must be .csv
 
 - Change the name of **your_file** to **Hello.csv**
