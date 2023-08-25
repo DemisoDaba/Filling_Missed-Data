@@ -13,6 +13,7 @@
 - The year may have the format of "Year", "Month", "Date"
 
 ### The format of Data you have. 
+ - Again to use [this code](./V_LookUp.py)
  - Dates --- up to 31 days.
  - Months --- 12
  - Years --- As you want
