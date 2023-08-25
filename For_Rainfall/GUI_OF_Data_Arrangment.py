@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Aug 24 18:10:12 2023
+@author: Demiso
+"""
+
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import font
