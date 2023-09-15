@@ -37,7 +37,7 @@ def calculate_year():
 
     # Iterate through the DataFrame and calculate the year based on the day
     for _, row in df.iterrows():
-        day = row['Date']
+        day = row['Dates']
 
         # Check if the day is 1, indicating the start of a new year
         if day == 1:
