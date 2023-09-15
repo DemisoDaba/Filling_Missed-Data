@@ -8,13 +8,15 @@ Created on Fri Sep 15 11:47:36 2023
 import tkinter as tk
 from tkinter import filedialog
 import pandas as pd
+import os
 
 def load_data():
-    global df
+    global df, input_file_name
     # Open a file dialog to select the input CSV file
     input_file_path = filedialog.askopenfilename(filetypes=[("CSV files", "*.csv")])
 
     if input_file_path:
+        input_file_name = os.path.basename(input_file_path)  # Get the input file name
         # Read the input CSV file into a DataFrame
         df = pd.read_csv(input_file_path)
         status_label.config(text="Data loaded successfully!")
@@ -36,18 +38,18 @@ def calculate_year():
     # Iterate through the DataFrame and calculate the year based on the day
     for _, row in df.iterrows():
         day = row['Date']
-        
+
         # Check if the day is 1, indicating the start of a new year
         if day == 1:
             current_year += 1
-        
         years.append(current_year)
 
     # Add the calculated "Year" column to the DataFrame
     df.insert(0, 'Year', years)  # Insert "Year" column at the beginning
 
-    # Save the modified DataFrame to a new CSV file
-    output_file_path = filedialog.asksaveasfilename(defaultextension=".csv", filetypes=[("CSV files", "*.csv")])
+    # Create the output file path with the input file's name and a suffix
+    output_file_path = filedialog.asksaveasfilename(defaultextension=".csv", filetypes=[("CSV files", "*.csv")],
+                                                   initialfile=input_file_name.replace('.csv', '_output.csv'))
     if output_file_path:
         df.to_csv(output_file_path, index=False)
         status_label.config(text=f"Year column added and saved to {output_file_path}")
