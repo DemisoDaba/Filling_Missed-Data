@@ -1,4 +1,4 @@
-This is
+The output can look like below table from Step1 output.
 
 |   Year   |  Month  |  Dates  |  Values  |
 |----------|---------|---------|----------|
