@@ -3,14 +3,6 @@
 
 _**In this repository you will find different folders which contain codes for different Steps in filling of missed SF data**_
 
-## How to execute the files?
-
-You must first write to your Terminal `./` Following the name of the file you want to run.
-
-### Example:
-```
-./demo
-```
 
 ### :file_folder:- Directories
 
