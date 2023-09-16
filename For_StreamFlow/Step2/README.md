@@ -1,5 +1,5 @@
-
-*The output can look like below table :point_down: from Step1 output*
+- It is just to look all data vertically - **Vertical Look Up**.
+   - The output can look like below table :point_down: from Step1 output
 
 
 |   Year   |  Month  |  Dates  |  Values  |
