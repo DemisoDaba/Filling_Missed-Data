@@ -24,10 +24,3 @@ This code can work for ``any temporal``
   0.80|0.98|0.35|0.28
   5.50||4.25|0.68
   0.25|0.35|0.87|0.35
-
-  **Getting Started**
-
-  To use the code, you'll need to:
-   - Clone this repository to your local machine.
-
-##### © 2023 **Demiso Daba - All rights reserved**
