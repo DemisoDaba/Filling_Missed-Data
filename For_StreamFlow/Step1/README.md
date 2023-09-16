@@ -8,6 +8,7 @@
  - You must know the start year of your data like:
     - 2000 and you must put 1999 on the code.
     - To start exacty at 2000 year arrangment to end.
+ - The data You have must look like below table :point_down: (.csv) file.
 
 | Date |    Jan   |    Feb   |    Mar   |    Apr   |    May   |    Jun   |
 |------|----------|----------|----------|----------|----------|----------|
