@@ -4,6 +4,7 @@
 ## Important Notes
 - This is to fill streamflow(missed) by using regression method.
 - The data must have at least one/two recorded values in a year.
+- Almost all codes are interms of Graphical User Interface (GUI).
 - In this repository you will find different folders which contain codes for different Steps in filling of missed SF data
 
 
