@@ -18,7 +18,7 @@
 |  31  | 231.583  |  206.799 |  39.111  |  168.498 |  131.29  |  30.424  | 
 |  1   |  266.1   |  209.501 |  36.085  |  164.498 |  118.005 |  33.304  |  
 
-- The output muat look like this table :point_down:
+- The output must look like this table :point_down:
    - Just simply adding the Year columns at the start.
 
 | Year | Dates |    Jan   |    Feb   |    Mar   |    Apr   |    May   |
