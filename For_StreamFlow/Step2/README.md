@@ -1,4 +1,6 @@
-The output can look like below table from Step1 output.
+
+*The output can look like below table :point_down: from Step1 output*
+
 
 |   Year   |  Month  |  Dates  |  Values  |
 |----------|---------|---------|----------|
