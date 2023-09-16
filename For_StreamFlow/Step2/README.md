@@ -1,6 +1,6 @@
 This is
 
-|   Year   |  Month  |  Dates  |  Vakues  |
+|   Year   |  Month  |  Dates  |  Values  |
 |----------|---------|---------|----------|
 |   2000   |   Jan   |    1    |   356.51 |
 |   2000   |   Jan   |    2    |   24.250 |
