@@ -9,11 +9,10 @@ _**In this repository you will find different folders which contain codes for di
 #|Directory|Description
 ---|:---:|---
 *|[README.md](./README.md)| Readme file or description about the **folders** and __files__
-0|[Step1](./Step1)|This folder contains executable files with **_basic commands for the Shell._**
-1|[0x02-shell_redirections](./0x01-shell_permissions)| This folder contains executable files among  **user, groups & others**.
-2|[0x03-shell_variables_expans](./0x03-shell_variables_expansions)| This folder contains execytable files that **redirect** and **expand** everything
-
-
+0|[Step1 click](./Step1)|This folder contains the script file to add a __year__ at __first__ column of the file.
+1|[Step2 click](./Step2)| This folder contains the script file that will Vlook clolumn wise exactly as: _Year_,	_Month_,	_Dates_, _Values_
+2|[Step3 click](./Step3)| This folder contains the script file that will arrange step2 as _Year1_, _Year2_ .. row wise and _Values_ below it
+3|[Step4 click](./Step4)| This folder contains the script file fill the missed data using regression method.
 
 
 ---
